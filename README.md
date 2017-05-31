@@ -9,7 +9,7 @@ Guide to install xpenology 6.x
 ### Download:
 - [Official DSM 6.0.2](https://usdl.synology.com/download/DSM/release/6.0.2/8451/DSM_DS3615xs_8451.pat)
 - [Jun's v1.01 loader](https://mega.nz/#F!BtFQ2DgC!JgomNP3X8V9EuwxL4TXbng!k5NxiIjI) and unzip it.
-
+- [Synology Assistant](https://global.download.synology.com/download/Tools/Assistant/6.1-15030/Windows/synology-assistant-6.1-15030.exe)
 
 # Install via Windows
 
@@ -30,7 +30,7 @@ Guide to install xpenology 6.x
 - Determine the mac address (using ifconfig or BIOS) of the xpenology host. Note down the mac address.
 
 ### Preparation: Generate serial number
-- [Generate a serialnumber](https://xpenology.github.io/serial_generator/serial_generator_new.html)
+- [Generate a serial number](https://xpenology.github.io/serial_generator/serial_generator_new.html)
 - Select "DS3615xs", Generate. Note down the serial.
 
 ### Preparation: write image to USB stick
@@ -39,20 +39,24 @@ Guide to install xpenology 6.x
 - Select the "synoboot.img" and write the image.
 
 ### Installation
-- Insert the USB stick into your future Xpenology host; make sure the USB stick is the first boot device (adjust in BIOS)
-- After the BIOS loaded, Jun's loader will be shown for 1 second: enter `c`.
+- Insert the USB stick into your new Xpenology host; make sure the USB stick is the first boot device (adjust in BIOS)
+- After the BIOS loaded, Jun's loader will only be shown for 1 second: quickly enter `c`.
 - GRUB commandline will be shown, enter:
 
-
-   >vid 0x<number from previous step>
-   >pid 0x<number from previous step>
-   >mac <mac address from previous step>
-   >sn <serial number from previous step>
+- `vid 0x<number from previous step>`
+- `pid 0x<number from previous step>`
+- `mac <mac address from previous step>`
+- `sn <serial number from previous step>`
 
 - Press `esc` to return to the boot menu
-- Choose the first option: `DS3615xs 6.02 Baremetal with Jun's Mod v1.01`
 
-
+- Choose the first option: `DS3615xs 6.02 Baremetal with Jun's Mod v1.01` and enter
+- Xpenology will start up
+- Return to your windows host and launch Synology Assistant
+- Wait for it to find your Xpenology host (max. 1 minute)
+- Choose install (when it is a new host) or migrate to migrate a previous installation. 
+- Next you will need to provide DSM 6.0.2 (DSM_DS3615xs_8451.pat)
+- Follow the instructions and enjoy!
 
 
 
