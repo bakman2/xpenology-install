@@ -50,7 +50,7 @@ Guide to install xpenology 6.x
 - Press `esc` to return to the boot menu
 
 - Choose the first option: `DS3615xs 6.02 Baremetal with Jun's Mod v1.01` and enter
-- Xpenology will start up
+- Xpenology will start up and will state `Booting the kernel`
 - Return to your windows host and launch Synology Assistant
 - Wait for it to find your Xpenology host (max. 1 minute)
 - Choose install (when it is a new host) or migrate to migrate a previous installation. 
