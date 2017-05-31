@@ -15,7 +15,6 @@ Guide to install xpenology 6.x
 
 ### Download
 - [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
-- Optional [Extra.lzma](https://mega.nz/#!HERm2ITI!0-eZDuY9pJzSeesON1O9N49QXat8EhvH1b9JtE5KdJo) ramdisk. For network detection or unrecognised HDD controllers. 
 
 ### Preparation: VID/PID 
 - Mount the USB stick
