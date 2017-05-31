@@ -56,8 +56,8 @@ Guide to install xpenology 6.x
 - Choose install (when it is a new host) or migrate to migrate a previous installation. 
 - Next you will need to provide DSM 6.0.2 (DSM_DS3615xs_8451.pat)
 - Follow the instructions, your host will reboot.
-- After it comes back up, you can update to [https://dedl.synology.com/download/DSM/release/6.0.2/8451/DSM_DS3615xs_8451.pat](DSM 6.0.2-8451 update 11) only. 
-  *Do not update any further unless you want to brick your installation*
+- After it comes back up, you can update to (DSM 6.0.2-8451 update 11)[https://dedl.synology.com/download/DSM/release/6.0.2/8451/DSM_DS3615xs_8451.pat] only. 
+  **Do not update any further unless you want to brick your installation**
 
 
 
