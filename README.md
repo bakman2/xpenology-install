@@ -49,7 +49,9 @@ Guide to install xpenology 6.0.2
 
 - Press `esc` to return to the boot menu
 
-- Choose the first option: `DS3615xs 6.02 Baremetal with Jun's Mod v1.01` and enter
+- Intel: Choose the first option: `DS3615xs 6.02 Baremetal with Jun's Mod v1.01` and enter
+- AMD: Choose the AMD option: `DS3615xs 6.02 Baremetal AMD with Jun's Mod v1.01` and enter
+
 - Xpenology will start up and will state `Booting the kernel`
 - Return to your windows host and launch Synology Assistant
 - Wait for it to find your Xpenology host (max. 1 minute)
