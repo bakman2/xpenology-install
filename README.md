@@ -45,7 +45,7 @@ Guide to install xpenology 6.x
 
 - `vid 0x<number from previous step>`
 - `pid 0x<number from previous step>`
-- `mac <mac address from previous step>`
+- `mac1 <mac address from previous step>`
 - `sn <serial number from previous step>`
 
 - Press `esc` to return to the boot menu
