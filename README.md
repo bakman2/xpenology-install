@@ -23,7 +23,7 @@ Guide to install xpenology 6.0.2
 - Right click, select "Properties"
 - Select the "Data"-tab and, if necessary, choose from the drop-down list line “Device Instance Id”
 - Find the VID_xxxx and PID_xxxx numbers
-- Note down the numbers: VID (Vendor ID) will become 0x<number>, PID (Product ID) will become 0x<number>
+- Note down the numbers: VID (Vendor ID) will become `0x<number>`, PID (Product ID) will become `0x<number>`
 
 ### Preparation: NIC Mac address
 - Determine the mac address (using ifconfig or BIOS) of the xpenology host. Note down the mac address.
